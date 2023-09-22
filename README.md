@@ -25,7 +25,7 @@ First things FIRST, Here are some suggestions you might want to follow in order 
 
 1.  Use an IDE (VS code recommmended).
 
-2.  Use the command line of the IDE(Not necessary but it will save you some time).
+2.  Use the command line of the IDE to run commands (Not necessary but it will save you some time).
 
 Now, Once you have the whole program on your machine. Below are the things you should look for.
 
