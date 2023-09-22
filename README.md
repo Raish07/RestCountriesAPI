@@ -17,7 +17,7 @@
 
     Example Usage:
     - GET '/country/?page=2' - Retrieves the second page of sorted country data.
-    """
+
 
 ****HOW TO SETUP, INSTALL AND RUN THE CODE****
 
