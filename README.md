@@ -57,7 +57,7 @@ So, Now when you have all the installations done. Its time for the real magic!. 
 
 3.  You can see the code running.
 
-                              ****OR IF above steps does not work****
+                                  OR IF above steps does not work
 
 1.  Run **python manage.py migrate** in your command.For migrating all the changes.
 
