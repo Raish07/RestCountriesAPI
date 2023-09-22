@@ -18,14 +18,17 @@
     Example Usage:
     - GET '/country/?page=2' - Retrieves the second page of sorted country data.
 
+     
 
 ****HOW TO SETUP, INSTALL AND RUN THE CODE****
 
 First things FIRST, Here are some suggestions you might want to follow in order to run the code smoothly:
 
-1.  Use an IDE (VS code recommmended).
+1.  Fork and Clone this repository on your machine.
+  
+2.  Use an IDE (VS code recommmended).
 
-2.  Use the command line of the IDE to run commands (Not necessary but it will save you some time).
+3.  Use the command line of the IDE to run commands (Not necessary but it will save you some time).
 
 Now, Once you have the whole program on your machine. Below are the things you should look for.
 
@@ -63,10 +66,10 @@ So, Now when you have all the installations done. Its time for the real magic!. 
 
 3.  After that run **python manage.py drf_create_token {YOUR USERNAME}**
 
-4.  Now, finally you can see your Auth Token in the command. Copy it and run it with **curl -H "Authorization: Token 
+4.  Now, finally you can see your Auth Token in the command. Copy your Auth Token and run it with **curl -H "Authorization: Token 
     YOUR_TOKEN_HERE" http://localhost:8000/country/.**
  
-5.  Or you can run with "httpie" **http  http://127.0.0.1:8000/ 'Authorization: Token YOUR_TOKEN_HERE**'(Recommended)
+5.  Or you can run your Auth token with "httpie" as:  **http  http://127.0.0.1:8000/ 'Authorization: Token YOUR_TOKEN_HERE**'(Recommended)
 
 6.  You can see the code running.
 
