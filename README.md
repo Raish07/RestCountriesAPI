@@ -55,23 +55,27 @@ So, Now when you have all the installations done. Its time for the real magic!. 
 2.  OR Run using "httpie" in your command **http  http://127.0.0.1:8000/ 'Authorization: Token 
     223304fe845443009704f5fe9eca76cf971408fe'** (Recommended)
 
-3.  You can see the code running.
+3.  At the successful implementation of all the above steps.You can see the code running.
 
-                                  OR IF above steps does not work
+                                  OR IF above steps does not work. Follow below mentioned steps.
+    
+  
+ 1. Run **python manage.py runserver** in your command. You will see this error: **"detail": "Authentication credentials were not provided."** That is because only 
+    authorized users are allowed to see the data.
+    
+ 2. Run **python manage.py migrate** in your command.For migrating all the changes.
 
-1.  Run **python manage.py migrate** in your command.For migrating all the changes.
-
-2.  Then run **python manage.py createsuperuser**. Here you need to enter an username , email(although, you can skip this) 
+ 3. Then run **python manage.py createsuperuser**. Here you need to enter an username , email(although, you can skip this) 
     and a password.
 
-3.  After that run **python manage.py drf_create_token {YOUR USERNAME}**
+ 4.  After that run **python manage.py drf_create_token {YOUR USERNAME}**
 
-4.  Now, finally you can see your Auth Token in the command. Copy your Auth Token and run it with **curl -H "Authorization: Token 
-    YOUR_TOKEN_HERE" http://localhost:8000/country/.**
+ 5.  Now, finally you can see your Auth Token in the command. Copy your Auth Token and run it with **curl -H "Authorization: Token 
+     YOUR_TOKEN_HERE" http://localhost:8000/country/.**
  
-5.  Or you can run your Auth token with "httpie" as:  **http  http://127.0.0.1:8000/ 'Authorization: Token YOUR_TOKEN_HERE**'(Recommended)
+ 6.  Or you can run your Auth token with "httpie" as:  **http  http://127.0.0.1:8000/ 'Authorization: Token YOUR_TOKEN_HERE**'(Recommended)
 
-6.  You can see the code running.
+ 7.  At the successful implementation of all the above steps.You can see the code running.
 
 
-P.S. Only Authorized users are allowed to see the API's Data that's why we are following above mentioned steps.
+
