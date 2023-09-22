@@ -31,6 +31,7 @@ Now, Once you have the whole program on your machine. Below are the things you s
 
 **Prerequisites:**
 
+
 1.You must have Python installed on your machine.(if not please download)
 
 2.You must have Django installed on your machine.(if not run in your command; for windows:(pip install django), for linux and Mac($ python -m pip install Django).
