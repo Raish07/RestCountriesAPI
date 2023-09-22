@@ -23,7 +23,7 @@
 
 ****HOW TO SETUP, INSTALL AND RUN THE CODE****
 
-First things FIRST, Here are some suggestions you might want to follow in order to run the code smoothly:
+First things FIRST, Here are some steps you might want to follow in order to run the code smoothly:
 
 1.  Fork and Clone this repository on your machine.
   
