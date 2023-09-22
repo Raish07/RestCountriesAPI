@@ -19,7 +19,7 @@
     Example Usage:
     - GET '/country/?page=2' - Retrieves the second page of sorted country data.
 
-     
+   **YOU CAN FIND ALL THE CODE INSIDE myproject/myapp/views.py**
 
 ****HOW TO SETUP, INSTALL AND RUN THE CODE****
 
